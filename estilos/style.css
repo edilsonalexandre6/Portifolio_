@@ -208,6 +208,30 @@ article h2 {
   font-size: 1em;
 }
 
+#prjeto-conteiner{
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+
+#projeto-conteiner .projeto{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: var(--fundo-principal);
+  padding: 10px;
+  border-radius: 10px;
+  border-left: 15px solid var(--destaque-inverso);
+  transition: border-color 0.5s,  border-width 0.5s;
+}
+
+#projeto-conteiner .projeto:hover{
+  border-color: var(--destaque);
+  border-left-width: 15px ;
+  cursor: pointer;
+}
+
+#projeto-conteiner .foto
 
 @media screen and (min-width: 768px) {
   #skill-conteiner{
