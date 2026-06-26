@@ -256,7 +256,7 @@ footer{
   background-color: var(--destaque);
   color:var(--texto-inverso) ;
   text-align: center;
-  padding: 8px;
+  padding: 4px;
 }
 
 footer a{
